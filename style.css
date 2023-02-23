@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+body {
+  background-color: #eee;
+  font-family: sans-serif;
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 6.5em;
+  height: 7em;
+  background-color: #ffffff;
+  box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
+  border-radius: 0.25em;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("cards/images.jpeg");
+  background-size: 111px 111px;
+  border: 2px solid;
+  border-color: red;
+  box-shadow: -.2em 0 .4em red, .2em 0 .4em red, 0 .1em .4em red, 0 -.1em .4em red;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+
+.card.red {
+  color: red;
+  background-color: #000000;
+}
+.card-topleft {
+  position: absolute;
+  top: 0.5em;
+  left: 0.75em;
+}
+.card-bottomright {
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.75em;
+  transform: rotate(180deg);
+}
+.card-corner-rank, .card-corner-suit {
+  width: 1em;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+#container1{
+    position:relative;
+    left:300px;
+    top:200px;
+    height: 50%;
+    width: 50%;
+    border: 1px solid green;
+    overflow: hidden;
+}
+
+#container2{
+    position:relative;
+    width: 50%;
+    height: 50%;
+    border: 1px solid blue;
+    overflow: auto;
+    padding-right: 15px;
+}
+
+
