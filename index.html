@@ -6,28 +6,70 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- import jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
 </head>
-
+  
 <body>
-  <div id = "container1"> <div id = "container2">
-  <div class="card noselect" draggable="true" data-item="0">
-    <div class="card-bottomright">
-      <div class="card-corner-rank"> A</div>
-      <div class="card-corner-suit">B </div>
-    </div>
-    <div class="card-topleft"> Top </div>
-  </div>
-  <div class="card" draggable="true" data-item="1"></div>
-  <div class="card" draggable="true" data-item="2"></div>
-  <div class="card"> </div>
-    <div class="card red"></div>
-  <div class="card red"></div>
-  
-  </div></div>
-  
-  <script src="dragndrop.js"></script>
+
+<img class="Card" id="Ace_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="2_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="3_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="4_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="5_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="6_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="7_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="8_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="9_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="10_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="Jack_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="Queen_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="Ace_of_Spades" src="cards/Reverse.png">
+<img class="Card" id="2_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="3_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="4_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="5_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="6_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="7_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="8_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="9_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="10_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="Jack_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="Queen_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="King_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="Ace_of_Hearts" src="cards/Reverse.png">
+<img class="Card" id="2_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="3_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="4_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="5_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="6_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="7_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="8_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="9_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="10_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="Jack_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="Queen_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="King_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="Ace_of_Clubs" src="cards/Reverse.png">
+<img class="Card" id="2_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="3_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="4_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="5_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="6_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="7_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="8_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="9_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="10_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="Jack_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="Queen_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="King_of_Diamonds" src="cards/Reverse.png">
+<img class="Card" id="Ace_of_Diamonds" src="cards/Reverse.png">
+<!-- can create a for loop for this later
+  -->
+  <script src="script.js"></script>
 </body>
-
-
 
 </html>
